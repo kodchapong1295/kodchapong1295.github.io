@@ -1,22 +1,48 @@
+
 *{
 	box-sizing: border-box;
 }
+body{
+	font-family: 'PT Sans Narrow', sans-serif;
+	background: rgb(255, 245, 212);
+}
 h1{
+	text-align: center;
+	font-weight: bold;
 	margin-bottom: 15px;
 }
 
-section>p{
+section{
 	border: 1px solid black;
-	padding: 40px 15px 15px 15px;
-	background-color: #8F8986;
-	width: 100%;
-	font-family: Helvetica;
-	color: white;
+	background-color: rgb(173, 173, 173);
+	margin: 10px;
 
 }
-section{
-
+section>h2{
+	float: right;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	margin:0;
+	width:150px;
+	height:45px;
+	padding-top: 5px ;
+}
+#chic{
+	background: salmon;
+}
+#beef{
+	background: maroon;
+	color: white;
+}
+#sushi{
+	background: orange;
+}
+section>p{
+	clear: both;
 	margin: 10px;
+	font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .row{
